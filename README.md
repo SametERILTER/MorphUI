@@ -1,4 +1,4 @@
-# MorphUI
+# MorphUI, a Generative UI App
 
 MorphUI is an experimental Generative UI (GenUI) runtime engine and declarative component renderer built for React Native and Expo. It translates natural language instructions into fully interactive, stateful, and animated mobile user interfaces in real time using large language models.
 
