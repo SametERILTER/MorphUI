@@ -285,6 +285,34 @@ npx expo start -c
 
 ---
 
+## Building Standalone Android APK
+
+To generate an installable standalone Android `.apk` file using EAS Build:
+
+1. Install EAS CLI globally:
+```bash
+npm install -g eas-cli
+```
+
+2. Log in to your Expo account:
+```bash
+eas login
+```
+
+3. Configure or link the project to EAS:
+```bash
+eas build:configure
+```
+
+4. Trigger the preview build:
+```bash
+eas build -p android --profile preview
+```
+
+Once the cloud build finishes, EAS will provide a direct download link and QR code for the `.apk` file.
+
+---
+
 ## Project Structure
 
 ```text
